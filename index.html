@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Find of Number</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<script src="script.js">
+
+</script>
+	<h1>Find of Number</h2>
+	<div class="backgroundgames">
+		<form name="board">
+			<!-- 1 rows-->
+			<input type=label name="R11" class="cell" value="1234"  onClick="Test(1,1)">
+			<input type=label name="R12" class="cell" value="1234"  onClick="Test(1,2)">
+			<input type=label name="R13" class="cell" value="1234"  onClick="Test(1,3)">
+			<input type=label name="R14" class="cell" value="1234"  onClick="Test(1,4)">
+			<input type=label name="R15" class="cell" value="1234"  onClick="Test(1,5)">
+			<br>
+			<!-- 2 rows-->
+			<input type=label name="R21" class="cell" value="1234"  onClick="Test(2,1)">
+			<input type=label name="R22" class="cell" value="1234"  onClick="Test(2,2)">
+			<input type=label name="R23" class="cell" value="1234"  onClick="Test(2,3)">
+			<input type=label name="R24" class="cell" value="1234"  onClick="Test(2,4)">
+			<input type=label name="R25" class="cell" value="1234"  onClick="Test(2,5)">
+			<!-- 3 rows-->
+			<br>
+			<input type=label name="R31" class="cell" value="1234"  onClick="Test(3,1)">
+			<input type=label name="R32" class="cell" value="1234"  onClick="Test(3,2)">
+			<input type=label name="R33" class="cell" value="1234"  onClick="Test(3,3)">
+			<input type=label name="R34" class="cell" value="1234"  onClick="Test(3,4)">
+			<input type=label name="R35" class="cell" value="1234"  onClick="Test(3,5)">
+			<!-- 4 rows-->
+			<br>
+			<input type=label name="R41" class="cell" value="1234"  onClick="Test(4,1)">
+			<input type=label name="R42" class="cell" value="1234"  onClick="Test(4,2)">
+			<input type=label name="R43" class="cell" value="1234"  onClick="Test(4,3)">
+			<input type=label name="R44" class="cell" value="1234"  onClick="Test(4,4)">
+			<input type=label name="R45" class="cell" value="1234"  onClick="Test(4,5)">
+			<!-- 5 rows-->
+			<br>
+			<input type=label name="R51" class="cell" value="1234"  onClick="Test(5,1)">
+			<input type=label name="R52" class="cell" value="1234"  onClick="Test(5,2)">
+			<input type=label name="R53" class="cell" value="1234"  onClick="Test(5,3)">
+			<input type=label name="R54" class="cell" value="1234"  onClick="Test(5,4)">
+			<input type=label name="R55" class="cell" value="1234"  onClick="Test(5,5)">
+			<br>
+			<input type=button name="Rand"class="newgame" value="New" onClick="Start();">
+			<input type=label name="FV" class="findcell" disabled value="find">
+			<input type=label name="Sc" class="scores" disabled value="0">
+			<input type=label name="Ts" class="timer" disabled value="0">
+			<input type=label name="Fs" class="undef" disabled value="0">
+			
+		</form>
+    <p> Нужно найти четырехзначное число из матрицы чисел 5х5.  Числа генерируются рандомом (случайно). <b>Нужно найти то число, которое совпадает с числом внизу (рядом с кнопкой new).</b> </p>
+	</div>
+</body>
