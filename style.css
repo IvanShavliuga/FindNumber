@@ -1,0 +1,89 @@
+body{
+  background-color:#cccccc;
+}
+h1{
+  text-align:center;
+  letter-spacing:3px;
+}
+.backgroundgames{
+  text-align:center;
+  border: 3px outset #7700ff;
+  width:500px;
+  margin-left:35%;
+  background-color:#f0f0f0;
+  padding-bottom:20px;
+  padding-top:20px;
+  font-size: 18pt;
+}
+.cell{
+    padding-left:10px;
+    padding-right:10px;
+    margin-top:5px;
+    Width:60px;
+    border:none;
+    color:#FFF;
+    background-color:#6600FF;
+    cursor:pointer;
+}
+.cell:hover{
+    background-color:#dd00FF;
+  
+}
+.newgame{
+    padding-left:10px;
+    padding-right:10px;
+    Width:60px;
+    border:none;
+    color:#FFF;
+    background-color:#0000FF;
+    margin-top:5px;
+    cursor:pointer;
+    
+}
+.scores{
+    padding-left:10px;
+    padding-right:10px;
+    Width:60px;
+    border:none;
+    color:#FFF;
+    background-color:#cc6699;
+    margin-top:5px;
+    cursor:default;
+}
+.findcell{
+    padding-left:10px;
+    padding-right:10px;
+    Width:60px;
+    border:none;
+    color:#FFF;
+    background-color:#6600FF;
+    margin-top:5px;
+    cursor:default;
+}
+.undef{
+    padding-left:10px;
+    padding-right:10px;
+    Width:60px;
+    border:none;
+    color:#FFF;
+    background-color:#cc6699;
+    margin-top:5px;
+    cursor:default;
+}
+.timer{
+    padding-left:10px;
+    padding-right:10px;
+    Width:60px;
+    border:none;
+    color:#FFF;
+    background-color:#cc6699;
+    margin-top:5px;
+    cursor:default;
+}
+p{
+  font-size:12pt;
+  margin-left:20px;
+  margin-right:20px;
+  border:1px dotted #330033;
+  background-color:#c0c0c0;
+}
