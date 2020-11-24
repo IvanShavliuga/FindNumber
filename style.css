@@ -1,3 +1,7 @@
+/*
+archive
+https://codepen.io/ivanshavliuga/pen/ReBbyr
+*/
 body{
   background-color:#cccccc;
 }
@@ -27,7 +31,7 @@ h1{
 }
 .cell:hover{
     background-color:#dd00FF;
-  
+
 }
 .newgame{
     padding-left:10px;
@@ -38,7 +42,7 @@ h1{
     background-color:#0000FF;
     margin-top:5px;
     cursor:pointer;
-    
+
 }
 .scores{
     padding-left:10px;
